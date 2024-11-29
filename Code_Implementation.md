@@ -1,6 +1,10 @@
 # Code Implementation
 
-This implementation demonstrates object matching and annotation between two images using feature matching. The goal is to detect objects in Image 2, match them to their corresponding objects in Image 1, and annotate Image 2 with the labels derived from Image 1.
+Problem Statement: Object Label Transfer Between Arbitrary Images
+
+Image 1: A collection of random, uniquely labeled objects or symbols, each annotated with a distinct label. These objects can take on arbitrary shapes, sizes, or colors and are not restricted to representing real-world entities. The arrangement provides a diverse and unconventional set of visual elements.
+
+Image 2: A new arrangement consisting of a subset of objects from Image 1, presented without labels. Additional objects not present in Image 1 may also appear, and none of these objects are annotated. Variations in orientation, scale, position, or lighting may be introduced compared to Image 1, creating a visually distinct context.
 
 ## Source Code
 
